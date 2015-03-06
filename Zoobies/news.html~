@@ -1,0 +1,56 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Zoobies-  Play, Sleep, Love' - News</title>
+<style type="text/css">
+body {
+    background-image: url("newsbackground.png");
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif   
+}
+h6 {
+  color: 939393;
+}
+
+td, p {
+  font-size: 14px;
+}
+</style>
+</head>
+<body>
+<center>
+<table width="800" height="430" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td colspan="3" align="center" bgcolor="#FFFFFF"><img src="newsbanner1.png" width="700" height="97" alt=""/></td>
+    </tr>
+    <tr>
+      <td colspan="3" align="center" bgcolor="#FFFFFF"><img src="featuredin.png" alt=""><img src="news.png" alt=""><img src="testimonials.png" alt=""><img src="awards.png" alt=""><img src="videos.png" alt="">
+      </td>
+    </tr>
+    <tr>
+      <td width="142" height="75" bgcolor="#FFFFFF"><a href="http://abc.go.com/shows/the-view/"><img src="theview.png" width="121" height="73" alt=""/></a> </td>
+      <td width="480" rowspan="3" valign="top" bgcolor="#FFFFFF"><p><h6>02 DECEMBER 2011</h6><b>Zoobies on the View!</b><br><br>Zoobies Storytime Pals made a memorable appearance on ABCs The View.</p>
+      <p><h6>08 SEPTEMBER 2011</h6><b>Blankie Babies a Finalist for Fat Brian Toy Awards</b> <br><br> Fat Brain Toys has made our Blankie Babies a finalist in their Toy Awards (Baby Toy Section) <a href="https://www.fatbraintoys.com/">Read More</a></p>
+      <p><h6>06 SEPTEMBER 2011</h6><b>Zoobies Makes Utah's 100 List</b><br> <br>Zoobies just made MountainWest Capital Networks list of the 100 fastest growing Utah companies!</p><br><br>
+      </td>
+      <td width="178" bgcolor="#FFFFFF"></td>
+    </tr>
+    <tr>
+      <td height="73" bgcolor="#FFFFFF"><a href="https://www.fatbraintoys.com/"><img src="finalist.png" width="121" height="73" valign="top" alt=""/></a></td>
+  
+      <td bgcolor="#FFFFFF">&nbsp;</td>
+    </tr>
+     <tr>
+      <td height="73" bgcolor="#FFFFFF" valign="top"><a href="http://www.mwcn.org/utah-100/"><img src="100ww.png" width="120" height="73" alt=""/></a></td>
+      <td bgcolor="#FFFFFF">&nbsp;</td>
+    </tr>
+      <tr>
+      <td  colspan="3" bgcolor="#FFFFFF"><center><b>Copyright &copy; 2014 Cool Dude Technologies</b></center></td>
+    </tr>
+  </tbody>
+</table>
+</center>
+
+
+</body>
+</html>

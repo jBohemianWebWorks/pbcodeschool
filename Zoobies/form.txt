@@ -1,0 +1,38 @@
+Form asks for:
+
+- First name [input field]
+- Last name [input field]
+
+- Type of car: [drop-down]
+	Honda
+	Toyota
+	Ford
+	Saturn
+	BMW
+	Mercedes
+
+- Do you have a motorcycle license? [radio button]
+
+- Comments [textarea]
+
+[ Submit button ]
+
+-----------------------------------------
+
+First name: [________________________]
+Last name: [_______________________]
+
+Type of car: [Honda ...]  <-- That is a drop-down!
+
+Do you have a motorcycle license?
+	o Yes
+	o No
+
+Comments:
++--------------------------------------------+
+|                                            |
+|                                            |
+|                                            |
++--------------------------------------------+
+
+Your submit button goes here!!!

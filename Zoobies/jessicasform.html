@@ -1,0 +1,143 @@
+<html>
+<head>
+	<title>Jessica Nachtman's Form </title>
+<style type="text/css">
+	body {
+		background-size: 100%;
+		background-image: url("DSC_2688.jpg"); 
+		width: 600px;
+		height: 800px;
+		
+	}
+	#main {
+		min-height: 800px;
+		margin: 0px;
+		padding: 0px;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-flex-flow: row;
+			    flex-flow: row;
+
+	}
+
+	#main > form {
+		width: 400px;
+		height: 600px;
+		padding: 25px;
+		background-color: #393939;
+		opacity: 0.75;
+		color: #ffffff;
+		float: right;
+		-webkit-flex: 3 1 60%;
+           flex: 3 1 60%;
+   		-webkit-order: 2;
+           order: 2;
+	}
+	
+	textarea {
+		background-color: #AAAAAA;
+		border: 1px solid;
+		box-shadow: 5px 5px 5px #000000;
+	}
+
+	#main > nav {
+  	 	margin: 4px;
+   		padding: 5px;
+   		-webkit-flex: 1 6 20%;
+           flex: 1 6 20%;
+   		-webkit-order: 1;
+           order: 1;
+   }
+
+  	 #main > aside {
+   		margin: 4px;
+   		padding: 5px;
+   		-webkit-flex: 1 6 20%;
+           flex: 1 6 20%;
+   		-webkit-order: 3;
+           order: 3;
+  	 }
+  	header, footer {
+   		display: block;
+   		margin: 4px;
+   		padding: 5px;
+   		min-height: 100px;
+   	}
+
+   	@media all and (max-width: 640px) {
+  
+  	 #main, #page {
+    -webkit-flex-flow: column;
+            flex-direction: column;
+  	 	}
+
+   	#main > article, #main > nav, #main > aside {
+    /* Return them to document order */
+    -webkit-order: 0;
+            order: 0;
+  		 }
+  
+   	#main > nav, #main > aside, header, footer {
+    min-height: 50px;
+    max-height: 50px;
+  		 }
+	 }
+
+	
+</style>
+
+</head>
+
+<body>
+
+<header></header>
+<div id='main'>
+
+<form>
+<center>
+<h3>J's Garage Auto Club</h3>
+ <br> <p>Thank you for your interest in J's Garage Auto Club. Use the form below to sign up to recieve the latest in all things auto!</p>
+<br>
+<br>
+</center>
+
+ First Name:
+<input for="firstname" type="text" name="firstname">
+<br>
+<br>
+Last Name: <input for="lastname" type="text" name="lastname">
+<br>
+<br>
+Type of car: 
+ <select>
+ 	<option>Honda</option>
+ 	<option>Toyota</option>
+	<option>Ford</option>
+	<option>Cheverlot</option>
+	<option>Saturn</option>
+	<option>BMW</option>
+	<option>Mercedes</option>
+	<option>Tesla</option>
+ </select>
+ <br>
+ <br>
+ Do you have a motorcycle licence? Yes <input for="mclicense" type="button" name="yes"> No <input for="mclicense" type="button" name="no">
+ <br>
+ <br>
+ Comments
+ <br>
+ <textarea cols="45" rows="7" name="comments"> Please share any comments here...</textarea>
+<br>
+<br>
+<center>
+<button type="submit" name="submitbutton">Submit</button>
+<button type="reset" name="resetbutton">Reset</button>
+</center>
+
+</form>
+<nav></nav>
+<aside></aside>
+</div>
+</body>
+
+</html>
